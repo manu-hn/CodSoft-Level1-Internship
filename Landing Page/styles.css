@@ -45,6 +45,17 @@ body {
     list-style: none;
 }
 
+.nav-bar-div ul li {
+    display: block;
+    /* border: 1px solid red; */
+    padding: 0.25em 0.75em;
+}
+
+.nav-bar-div ul li:hover {
+    background: #6b4949;
+    border-radius: 0.25em;
+}
+
 .nav-bar-div ul li a {
     text-decoration: none;
     color: #f6f7ff;
@@ -55,7 +66,8 @@ body {
     width: 100%;
     height: 100%;
     /* background: #1B3F33; */
-    border-radius: 2em;
+    /* border-radius: 2em; */
+    
 
 }
 
@@ -93,13 +105,13 @@ body {
 
 .hero-img {
     width: 100%;
-    height: 90%;
+    height: 75%;
     /* background: url('./images/hero-bg.jpg'); */
     background-size: cover;
     display: grid;
     place-items: center;
     color: #f8f8ff;
-
+    /* border: 5px solid green; */
 
 }
 
@@ -110,7 +122,7 @@ body {
     background: #f5f5ff;
     outline: none;
     border: none;
-    color: #f5f5ff;
+    color: #000;
     border-radius: 0.5em;
 
 }
@@ -147,12 +159,12 @@ body {
 .essentials {
     width: 100%;
     /* border: 1px solid red; */
-    padding: 2em;
+    padding: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 5em;
+    /* margin-top: 1em; */
 }
 
 .cards {
@@ -369,10 +381,12 @@ body {
     width: 100%;
     height: 2em;
 }
+
 .tel {
     color: #0011ff;
     font-weight: bold;
 }
+
 /*! Footer  */
 
 
