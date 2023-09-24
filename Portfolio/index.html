@@ -1,13 +1,187 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8" />
+    <title>Manu H N Portfolio Website HTML CSS JS</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 </head>
+
 <body>
-    
-    <script src="./vanilla.js"></script>
+
+    <div class="scroll-button">
+        <a href="#home"><i class="fas fa-arrow-up"></i></a>
+    </div>
+
+    <nav>
+        <div class="navbar">
+            <div class="logo"><a href="#">Portfolio</a></div>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+            <div class="social-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="text">
+                <div class="text-one">Hello,</div>
+                <div class="text-two">I'm Manu H N</div>
+                <div class="text-three">a Full Stack Developer</div>
+
+            </div>
+            <div class="hire-button">
+                <button>Hire Me</button>
+            </div>
+        </div>
+    </section>
+
+    <div class="border"></div>
+
+    <section class="about" id="about">
+        <div class="content">
+            <div class="title"><span>About Me</span></div>
+            <div class="about-details">
+                <div class="left">
+                    <img src="images/ManuHNPhoto.jpg" alt="" />
+                </div>
+                <div class="right">
+                    <div class="topic">MERN Stack Web Developer</div>
+                    <p>
+                        Skilled web developer proficient in JavaScript, Java, ReactJS, NodeJS, and web technologies,
+                        committed to writing clean, maintainable, and scalable code. With an unwavering commitment to
+                        learning and contributing, I aim to leverage my expertise in building innovative web solutions
+                        and enhancing the productivity of a dynamic team. </p>
+                    <div class="hire-button">
+                        <button id="downloadButton">Download CV</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="border"></div>
+
+    <section class="skills" id="skills">
+        <div class="content">
+            <div class="title"><span>My Skills</span></div>
+            <div class="skills-details">
+                <div class="text">
+                    <div class="topic">Skills Reflects Our Knowledge</div>
+                    <p>As an engineering graduate, I embody the fusion of knowledge and curiosity. Proficient in
+                        JavaScript, React.js, Java, Node.js, MongoDB, Git, and more, I craft digital marvels that
+                        transform possibilities into reality.
+                    </p>
+
+                </div>
+                <div class="boxes">
+                    <div class="box1">
+                        <div class="box">
+                            <div class="topic">Web Technologies</div>
+                            <div class="percent">90%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic">Java</div>
+                            <div class="percent">70%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic">JavScript</div>
+                            <div class="percent">70%</div>
+                        </div>
+                    </div>
+                    <div class="box2">
+                        <div class="box">
+                            <div class="topic">React.js</div>
+                            <div class="percent">80%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic">MongoDB</div>
+                            <div class="percent">70%</div>
+                        </div>
+                        <div class="box">
+                            <div class="topic">Node.js</div>
+                            <div class="percent">80%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="border"></div>
+
+
+    <section class="services" id="services">
+        <div class="content">
+            <div class="title"><span>My Services</span></div>
+            <div class="card-boxes">
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <div class="topic">Web Devlopment</div>
+                    <p>Elevating web experiences through expert craftsmanship in Web Development. Transforming visions
+                        into dynamic web solutions.</p>
+                </div>
+
+
+
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <div class="topic">Java Development</div>
+                    <p>Empowering businesses with Java Development expertise.Turning Java code into innovative
+                        solutions."</p>
+                </div>
+                <div class="card">
+                    <div class="icon">
+                        <i class="fas fa-tablet-alt"></i>
+                    </div>
+                    <div class="topic">Apps Devlopment</div>
+                    <p>Shaping the future through innovative App Development. Bringing ideas to life in the world of
+                        mobile apps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="border"></div>
+
+
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Contact Me</span></div>
+            <div class="text">
+                <div class="topic">Have Any Project?</div>
+                <p>Your Solution, Your Service – Hire Me for Your Every Need!</p>
+                <div class="hire-button">
+                    <button>Let's Chat</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <div class="text">
+            <span>Created By <a href="#">Manu H N</a> | &copy; 2023 All Rights Reserved</span>
+        </div>
+    </footer>
+
+    <script src="vanilla.js"></script>
 </body>
+
 </html>

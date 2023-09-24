@@ -1,0 +1,395 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+}
+
+
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 1em 0;
+    z-index: 999;
+    transition: all 0.3s ease;
+    font-family: 'Ubuntu', sans-serif;
+    background: #000;
+}
+
+
+nav .navbar {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+nav .navbar .logo a {
+    font-weight: 500;
+    font-size: 35px;
+    color: #fff;
+}
+
+nav.sticky .navbar .logo a {
+    color: #fff;
+}
+
+nav .navbar .menu {
+    display: flex;
+    position: relative;
+}
+
+nav .navbar .menu li {
+    list-style: none;
+    margin: 0 0.5em;
+}
+
+.navbar .menu a {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    padding: 6px 0;
+    transition: all 0.4s ease;
+}
+
+.navbar .menu a:hover {
+    color: #ff4500;
+}
+
+
+
+.border{
+    height: 0.1em;
+    width: 100%;
+    background: #b0adad;
+}
+nav.sticky .menu a:hover {
+    color: #fff;
+}
+
+.navbar .social-icons a {
+    color: #fff;
+    font-size: 1.25em;
+    margin: 0 0.25em;
+}
+.navbar .social-icons a:hover{
+    color: #ff4500;
+}
+
+
+
+
+nav.sticky .menu-btn {
+    color: #FFF;
+}
+
+.navbar .menu .menu-btn {
+    color: #fff;
+}
+
+
+.home {
+    height: 100vh;
+    width: 100%;
+    background: url("./Images/ManuBGr.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.home .home-content {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.home .text-one {
+    font-size: 25px;
+    color: #000;
+}
+
+.home .text-two {
+    color: #714e4e;
+    font-size: 4.5em;
+    font-weight: 600;
+    margin-left: -3px;
+}
+
+.home .text-three {
+    font-size: 40px;
+    margin: 5px 0;
+    color: #714e4e;
+}
+
+
+
+.home .hire-button {
+    margin: 14px 0;
+}
+
+.home .hire-button button {
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-size: 25px;
+    font-weight: 400;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.4s ease;
+}
+
+.home .hire-button button:hover {
+    border-color: #ff4500;
+    background-color: #ff4500;
+    color: #000;
+}
+
+
+
+
+.content {
+    width: 80%;
+    margin: 40px auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.about .about-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section .title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+section .title span {
+    color: #0E2431;
+    font-size: 30px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+}
+
+
+
+.about .about-details .left {
+    width: 45%;
+}
+
+.left img {
+    height: 15em;
+
+    width: 15em;
+    object-fit: cover;
+    border-radius: 0.5em;
+}
+
+.about-details .right {
+    width: 55%;
+}
+
+section .topic {
+    color: #0E2431;
+    font-size: 1.25em;
+    font-weight: 500;
+    margin-bottom: 1em;
+}
+
+.about-details .right p {
+    text-align: justify;
+    color: #0E2431;
+}
+
+.hire-button {
+    margin: 1em;
+}
+
+.hire-button button {
+    outline: none;
+    padding: 0.6em 1.1em;
+    border-radius: 0.2em;
+    font-size: 1.25em;
+    font-weight: 400;
+    background: #000;
+    color: #fff;
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.hire-button button:hover {
+    background-color: #ff4500;
+    color: #000;
+}
+
+
+.skills {
+    background: #F0F8FF;
+ 
+    
+}
+
+.skills .content {
+    padding: 1em 0;
+   
+}
+
+.skills .skills-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.skills-details .text {
+    width: 40%;
+}
+
+.skills-details p {
+    color: #0E2431;
+    text-align: justify;
+}
+
+
+.skills-details .boxes {
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.skills-details .boxes .topic {
+    font-size: 1.5em;
+    color: #ba5a1f;
+}
+
+.skills-details .boxes .percent {
+    font-size: 2.5em;
+    color: #e98b18;
+}
+
+
+.services .card-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.services .card-boxes .card {
+    margin: 1.3em 0;
+    width: calc(100% / 3 - 2em);
+    text-align: center;
+    border-radius: 0.75em;
+    padding: 1.4em 0.8em;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.12);
+    cursor: default;
+    transition: all 0.4s ease;
+}
+
+.services .card-boxes .card:hover {
+    background: rgb(28, 28, 211);
+    color: #fff;
+}
+
+.services .card-boxes .card .icon {
+    height: 3em;
+    width: 3em;
+    background: #000;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 3em;
+    font-size: 1.5em;
+    color: #fff;
+    margin: 0 auto 10px auto;
+    transition: all 0.4s ease;
+}
+
+.card-boxes .card:hover .icon {
+    background-color: #fff;
+    color: #000;
+}
+
+.services .card-boxes .card:hover .topic,
+.services .card-boxes .card:hover p {
+    color: #000;
+    transition: all 0.4s ease;
+}
+
+
+
+.contact {
+    background: #F0F8FF;
+    margin-top: 1em;
+}
+
+.contact .content {
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.contact .text {
+    width: 80%;
+    text-align: center;
+    margin: auto;
+}
+
+
+footer {
+    background: #000;
+    padding: 1em 0;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer .text span {
+    font-size: 1em;
+    font-weight: 400;
+    color: #fff;
+}
+
+footer .text span a {
+    font-weight: 500;
+    color: #FFF;
+}
+
+footer .text span a:hover {
+    text-decoration: underline;
+}
+
+
+.scroll-button a {
+    position: fixed;
+    bottom: 1.2em;
+    right: 1.2em;
+    color: #fff;
+    background: #000;
+    padding: 0.5em 1em;
+    font-size: 1.15em;
+    border-radius: 0.25em;
+    box-shadow: rgba(0, 0, 0, 0.15);
+    display: none;
+}
