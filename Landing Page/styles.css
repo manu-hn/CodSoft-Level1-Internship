@@ -24,18 +24,25 @@ body {
 .nav-section {
     width: 100%;
     height: 4em;
-    /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     background: #000;
+   
+}
+
+.myshopping-logo {
+    height: 4em;
+    width: 15em;
+    cursor: pointer;
+    background: url('./images/Logo1.png');
+    background-position: center;
+    background-size: cover;
+
 }
 
 .nav-bar-div {
     width: 85%;
-    /* border: 2px solid green; */
-
-
 }
 
 .nav-bar-div>ul {
@@ -47,12 +54,13 @@ body {
 
 .nav-bar-div ul li {
     display: block;
-    /* border: 1px solid red; */
     padding: 0.25em 0.75em;
+    transition: all 0.5s;
 }
 
 .nav-bar-div ul li:hover {
-    background: #6b4949;
+    background: #9ec39e;
+    color: #000;
     border-radius: 0.25em;
 }
 
@@ -60,19 +68,22 @@ body {
     text-decoration: none;
     color: #f6f7ff;
     font-size: 1.15em;
+    transition: all 0.5s;
+
+}
+
+.nav-bar-div ul li a:hover {
+    color: #000;
 }
 
 .hero-wrapper {
     width: 100%;
     height: 100%;
-    /* background: #1B3F33; */
-    /* border-radius: 2em; */
-    
 
 }
 
 #hero-text {
-    /* border: 1px solid red; */
+
     height: 6em;
     display: flex;
     flex-direction: column;
@@ -106,12 +117,12 @@ body {
 .hero-img {
     width: 100%;
     height: 75%;
-    /* background: url('./images/hero-bg.jpg'); */
+
     background-size: cover;
     display: grid;
     place-items: center;
     color: #f8f8ff;
-    /* border: 5px solid green; */
+
 
 }
 
@@ -149,6 +160,11 @@ body {
     border: none;
     border-radius: 1em;
     cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    background: #ff4500;
 }
 
 /* ! nav Bar */
@@ -158,13 +174,13 @@ body {
 
 .essentials {
     width: 100%;
-    /* border: 1px solid red; */
+
     padding: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* margin-top: 1em; */
+
 }
 
 .cards {
@@ -180,7 +196,7 @@ body {
 .card-item {
     width: 13em;
     height: 18em;
-    /* border: 1px solid blue; */
+
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -194,7 +210,7 @@ body {
 .card-item img {
     width: 12em;
     height: 12em;
-    /* border: 1px solid red; */
+
     border-radius: 1em;
     overflow: hidden;
     mix-blend-mode: multiply;
@@ -213,14 +229,21 @@ body {
 }
 
 .head-electric {
-    margin-bottom: 2em;
+    margin-bottom: 1em;
+ 
 
 }
-
+.border{
+    width: 100%;
+    height: 0.5px;
+    background: #b8b4b4;
+    margin-bottom: 1em;
+}
 .camera-section {
     width: 100%;
     display: flex;
     justify-content: space-between;
+   
 }
 
 /* ! Hero and Essentials */
@@ -228,7 +251,7 @@ body {
 
 .section-three {
     width: 100%;
-    /* border: 2px solid orange; */
+
     display: flex;
     justify-content: center;
     padding: 1em;
@@ -237,7 +260,7 @@ body {
 .inner-three {
     padding: 1em;
     width: 95%;
-    /* border: 1px solid red; */
+
     background: #f5f5ff;
     border-radius: 1em;
 }
@@ -282,12 +305,12 @@ body {
 
 .inner-container {
     display: flex;
-    /* border: 1px solid green; */
+
 }
 
 .item-inner-section {
     display: flex;
-    /* border:2px solid red; */
+
     justify-content: space-between;
 }
 
@@ -322,7 +345,7 @@ body {
 .foot-section {
     width: 95%;
     display: flex;
-    /* border: 2px solid red; */
+
     justify-content: space-evenly;
     align-items: center;
     margin-top: 2em;
@@ -371,6 +394,13 @@ body {
     justify-content: space-around;
     margin-top: 2em;
     align-items: center;
+}
+.foot-logo{
+    height: 4em;
+    width: 8em;
+  
+    background: url("./images/Logo1.png");
+    background-size: contain;
 }
 
 .copy-div h5 {
