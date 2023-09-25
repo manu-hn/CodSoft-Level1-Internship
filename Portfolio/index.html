@@ -11,11 +11,6 @@
 </head>
 
 <body>
-
-    <div class="scroll-button">
-        <a href="#home"><i class="fas fa-arrow-up"></i></a>
-    </div>
-
     <nav>
         <div class="navbar">
             <div class="logo"><a href="#">Portfolio</a></div>
@@ -23,14 +18,15 @@
                 <li><a href="#">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
+                <li><a href="#project">Projects</a></li>
                 <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
 
             </ul>
             <div class="social-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a target="_blank" href="https://github.com/manu-hn"><i class="fab fa-github"></i></a>
+                <a target="_blank" href="https://www.linkedin.com/in/manu-hn/"><i class="fab fa-linkedin"></i></a>
+                <a target="_blank" href="https://www.instagram.com/black_droid_05/"><i class="fab fa-instagram"></i></a>
             </div>
         </div>
     </nav>
@@ -45,7 +41,7 @@
 
             </div>
             <div class="hire-button">
-                <button>Hire Me</button>
+                <button id="button"><a href="mailto:manuu.hn11@gmail.com">Hire Me</a></button>
             </div>
         </div>
     </section>
@@ -67,7 +63,7 @@
                         learning and contributing, I aim to leverage my expertise in building innovative web solutions
                         and enhancing the productivity of a dynamic team. </p>
                     <div class="hire-button">
-                        <button id="downloadButton">Download CV</button>
+                        <button id="button"><a target="_blank" href="https://drive.google.com/file/d/1QdBIwj2TRWBCf6DSQrnBttrF1QF2kPQ9/view?usp=drive_link">Download CV</a></button>
                     </div>
                 </div>
             </div>
@@ -123,6 +119,49 @@
     </section>
     <div class="border"></div>
 
+    <section class="projects" id="project">
+        <div class="content">
+            <div class="title"><span>My Projects</span></div>
+            <div class="project-boxes">
+                <div class="project-card">
+                    <h4 class="head-tag">Weather App</h4>
+                    <div class="inside-card">
+                        <a target="_blank" href="https://github.com/manu-hn/Vanilla-JS-Projects/blob/main/index.html">
+                            <img src="./Images/WeatherApp.png" alt="Weather APP">
+                        </a>
+                    </div>
+                    <p class="tagline">Stay informed with real-time weather updates.</p>
+                </div>
+                <div class="project-card">
+                    <h4 class="head-tag">Calculator</h4>
+                    <div class="inside-card">
+                        <a target="_blank"
+                            href="https://github.com/manu-hn/CodSoft-Level1-Internship/tree/main/Calculator">
+                            <img src="./Images/Calculator.png" alt="Calculator">
+
+                        </a>
+                    </div>
+                    <p class="tagline">It performs quick, accurate calculations for you</p>
+
+
+                </div>
+                <div class="project-card">
+                    <h4 class="head-tag">Photo Gallery</h4>
+                    <div class="inside-card">
+                        <a target="_blank" href="https://github.com/manu-hn/my_app">
+                            <img src="./Images/Gallery.png" alt="Photo Gallery">
+                        </a>
+                    </div>
+                    <p class="tagline">Your visual journey, beautifully organized here</p>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <div class="border"></div>
+
 
     <section class="services" id="services">
         <div class="content">
@@ -132,7 +171,7 @@
                     <div class="icon">
                         <i class="fas fa-desktop"></i>
                     </div>
-                    <div class="topic">Web Devlopment</div>
+                    <div class="topic">Web Development</div>
                     <p>Elevating web experiences through expert craftsmanship in Web Development. Transforming visions
                         into dynamic web solutions.</p>
                 </div>
@@ -181,7 +220,7 @@
         </div>
     </footer>
 
-    <script src="vanilla.js"></script>
+    
 </body>
 
 </html>
